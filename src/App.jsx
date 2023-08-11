@@ -1,15 +1,15 @@
-import React from 'react';
 import './App.css';
-import Header from './components/Header';
 
+const name = "Murat"
+const surname = "Yılmaz"
+const isLoggedIn = false;
 function App() {
   return (
-    <div>
-      <Header /> 
-      <div>
-        <h1>Hello Murat</h1>
-      </div>
-    </div>
+    <>
+    <h1>
+      {isLoggedIn ? `Kullanıcı Adı: ${name} soyadı: ${surname}`: `Giriş yapın` }
+    </h1> 
+    </>
   );
 }
 
