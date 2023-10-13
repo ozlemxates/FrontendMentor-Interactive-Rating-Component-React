@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here]()
-- Live Site URL: [Click here](https://ozlemxates.github.io/Interactive-Rating-Component-React/)
+- Solution URL: [Click here](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub)
+- Live Site URL: [Click here](https://ozlemxates.github.io/FrontendMentor-Interactive-Rating-Component-React/)
 
 
 ### What I learned
