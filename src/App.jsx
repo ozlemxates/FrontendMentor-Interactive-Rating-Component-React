@@ -1,17 +1,30 @@
+import { useState } from 'react';
 import './App.css';
+import Card from './components/Card';
+import RatedCard from './components/RatedCard';
 
-const name = "Murat"
-const surname = "Yılmaz"
-const isLoggedIn = false;
 function App() {
+  const [rating, setRating] = useState(null);
+  const [showRatedCard, setShowRatedCard] = useState(false);
+
+  const handleRating = (selectedRating) => {
+    setRating(selectedRating);
+  };
+
+  const handleSubmit= (rating) => {
+    setRating(rating);
+    setShowRatedCard(true);
+  };
+
   return (
-    <>
-    <h1>
-      {isLoggedIn ? `Kullanıcı Adı: ${name} soyadı: ${surname}`: `Giriş yapın` }
-    </h1> 
-    </>
+    <div className='App'>
+    {showRatedCard ? (
+        <RatedCard rating={rating} />
+      ) : (
+        <Card onRating={handleRating} submitRating={handleSubmit} rating={rating} /> 
+      )}
+    </div>
   );
 }
 
 export default App;
-
