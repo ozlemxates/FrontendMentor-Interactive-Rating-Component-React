@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FrontendMentor-Interactive-Rating-Component-React/static/css/main.c67615f1.css",
+    "main.js": "/FrontendMentor-Interactive-Rating-Component-React/static/js/main.004e62b1.js",
+    "static/js/787.90f7e486.chunk.js": "/FrontendMentor-Interactive-Rating-Component-React/static/js/787.90f7e486.chunk.js",
+    "static/media/illustration-thank-you.svg": "/FrontendMentor-Interactive-Rating-Component-React/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/FrontendMentor-Interactive-Rating-Component-React/index.html",
+    "static/media/icon-star.svg": "/FrontendMentor-Interactive-Rating-Component-React/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
+    "main.c67615f1.css.map": "/FrontendMentor-Interactive-Rating-Component-React/static/css/main.c67615f1.css.map",
+    "main.004e62b1.js.map": "/FrontendMentor-Interactive-Rating-Component-React/static/js/main.004e62b1.js.map",
+    "787.90f7e486.chunk.js.map": "/FrontendMentor-Interactive-Rating-Component-React/static/js/787.90f7e486.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c67615f1.css",
+    "static/js/main.004e62b1.js"
+  ]
+}
